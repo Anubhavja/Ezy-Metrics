@@ -25,3 +25,4 @@ To run this project locally, follow the steps below:
 ## To Run The Project 
 - Go to Terminal and then type cd/ezy-metrics.
 -  After that Run this command npm start.
+NOTE : The Project File is in Master Branch
