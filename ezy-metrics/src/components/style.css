@@ -1,0 +1,121 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(249, 249, 249);
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  background: hsl(210, 93%, 27%);
+  color: #ffffff;
+  position: fixed;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: #ffffff;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #495057;
+}
+
+/* Main content area */
+.dashboard,
+.analytics,
+.reports,
+.leads {
+  margin-left: 260px;
+  padding: 20px;
+}
+
+/* Widget styles */
+.widget {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Lead item styles */
+.lead-item {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Lead table styles */
+.lead-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table headers */
+.lead-table th {
+  background-color: hwb(210 2% 51%);
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Table rows */
+.lead-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Row hover effect */
+.lead-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Alternating row colors */
+.lead-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Sidebar */
+  .sidebar {
+    width: 100%; /* Full width on mobile */
+    position: relative; /* Change position for mobile */
+    height: auto; /* Allow height to adjust */
+  }
+  
+  .dashboard,
+  .analytics,
+  .reports,
+  .leads {
+    margin-left: 0; /* No left margin on mobile */
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  .lead-table th,
+  .lead-table td {
+    font-size: 14px; /* Smaller font size for mobile */
+    padding: 8px; /* Adjust padding for mobile */
+  }
+
+  .lead-item {
+    padding: 10px; /* Smaller padding for mobile */
+    margin: 5px 0; /* Adjust margin for mobile */
+  }
+}

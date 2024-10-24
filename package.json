@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "chart.js": "^4.4.5",
+    "jspdf": "^2.5.2",
+    "material-ui": "^0.15.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv": "^2.2.2",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.27.0",
+    "react-to-print": "^3.0.2"
+  }
+}
